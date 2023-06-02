@@ -12,6 +12,39 @@
         android:theme="@style/Theme.Adequacaolgpd"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivityResolucoesAnpd"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityResolucao02"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityCapitulo10"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityCapitulo09"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityCapitulo08"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityCapitulo07"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityCapitulo06"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityCapitulo05"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityCapitulo04"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityCapitulo03"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityCapitulo02"
+            android:exported="false" />
+        <activity
             android:name=".MainActivityCapitulo01"
             android:exported="false" />
         <activity

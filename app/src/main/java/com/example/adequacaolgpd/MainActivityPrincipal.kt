@@ -20,5 +20,11 @@ class MainActivityPrincipal : AppCompatActivity() {
             val Intent = Intent(this, MainActivityLgpd::class.java)
             startActivity(Intent)
         }
+        val btnRegulamentacoes= findViewById<Button>(R.id.btnRegulamentacoes)
+        btnRegulamentacoes.setOnClickListener {
+            val Intent = Intent(this, MainActivityResolucoesAnpd::class.java)
+            startActivity(Intent)
+        }
+
     }
 }
