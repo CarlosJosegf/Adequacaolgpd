@@ -169,6 +169,8 @@ II - estudo por órgão de pesquisa, garantida, sempre que possível, a anonimiz
 III - transferência a terceiro, desde que respeitados os requisitos de tratamento de dados dispostos nesta Lei; ou\n
 IV - uso exclusivo do controlador, vedado seu acesso por terceiro, e desde que anonimizados os dados. \n
 </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
