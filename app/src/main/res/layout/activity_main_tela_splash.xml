@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green01"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivityTelaSplash">
+
+    <TextView
+        android:id="@+id/txvOrnamental"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adequação a Lei geral de proteção de dados"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="395dp"
+        android:layout_height="294dp"
+        app:srcCompat="@drawable/ic_launcher_background"/>
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/by_carlos_jos"
+        android:textAlignment="center"
+        android:textColor="@color/blue01"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green01"
+    tools:context=".MainActivityPrincipal">
+
+
+    <Button
+        android:id="@+id/btnLgpd"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/LGPD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRegulamentacoes"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/regulamentacao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLgpd" />
+
+    <Button
+        android:id="@+id/btnGlossario"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/glossario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegulamentacoes" />
+
+    <Button
+        android:id="@+id/brnAdequacao"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/adequa_o"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGlossario" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
